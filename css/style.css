@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: lightblue;
+  color: #333;
+}
+
+.hero-banner {
+  height: 85vh;
+  background: url('../images/hero2.jpg') center center/cover no-repeat;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.features i {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  font-size: 20px;
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+#scrollBtn:hover {
+  background-color: #495057;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 60vh;
+  }
+}
